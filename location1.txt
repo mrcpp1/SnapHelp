@@ -1,0 +1,30 @@
+The left location is **Hell's Kitchen**. Its effect is: **"Draw a 1-Cost card from your deck."** This effect triggers upon reveal, giving each player a 1-Cost card if they have any remaining in the deck.
+
+### Cards played at **Hell's Kitchen**:
+
+#### Opponent's Cards (on top):
+1. **Punisher**  
+   - **Cost**: 3  
+   - **Power**: 5  
+   - **Ability**: Ongoing - Gains +1 Power for each opposing card at the location.
+  
+2. **America Chavez**  
+   - **Cost**: 6  
+   - **Power**: 9  
+   - **Ability**: You always draw this card on turn 6, and not before.
+
+#### Player's Cards (on bottom):
+1. **Iceman**  
+   - **Cost**: 1  
+   - **Power**: 2  
+   - **Ability**: On Reveal - Give a random card in your opponent's hand +1 Cost.
+
+2. **Colossus**  
+   - **Cost**: 2  
+   - **Power**: 3  
+   - **Ability**: Ongoing - Cannot be destroyed, moved, or have its Power reduced.
+
+3. **Captain America**  
+   - **Cost**: 3  
+   - **Power**: 3  
+   - **Ability**: Ongoing - Your other cards at this location have +1 Power.

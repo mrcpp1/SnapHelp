@@ -1,0 +1,22 @@
+Here is a breakdown of each card in the player's hand, based on the image:
+
+1. **Namor**
+   - **Cost**: 4
+   - **Power**: 5
+   - **Ability**: Namor gains **+5 Power** if it is the only card at its location, making it more effective in focused, solo strategies in a single location.
+
+2. **The Punisher**
+   - **Cost**: 3
+   - **Power**: 2
+   - **Ability**: The Punisher gains **+1 Power** for each opposing card at this location, making it stronger when played against locations with many enemy cards.
+
+3. **Spectrum**
+   - **Cost**: 6
+   - **Power**: 5
+   - **Ability**: On reveal, Spectrum gives **+2 Power** to all of your ongoing cards, boosting their effect and making it ideal for synergy with ongoing card decks.
+
+4. **Iron Man**
+   - **Cost**: 5
+   - **Power**: 0
+   - **Ability**: Iron Man doubles your total Power at the location where he is played, potentially bringing a massive power swing at key moments.
+

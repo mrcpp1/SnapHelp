@@ -1,0 +1,26 @@
+### Middle Location: **Otto's Lab**
+- **Effect**: "The first card you play here copies itself." This means that when a card is played at Otto's Lab, an additional copy of that card is created and placed in the same location.
+
+### Cards Played at Otto's Lab:
+
+#### 1. **Opponent's Cards (Top)**
+- **Scorpion**
+  - **Cost**: 2
+  - **Power**: 3
+  - **Ability**: When Scorpion is revealed, it afflicts all cards in the opponent's hand with a -1 Power, weakening any cards still to be played.
+
+- **Okoye**
+  - **Cost**: 2
+  - **Power**: 2
+  - **Ability**: When revealed, Okoye gives every card in your deck +1 Power, increasing their strength when drawn and played.
+
+#### 2. **Player's Cards (Bottom)**
+- **Klaw**
+  - **Cost**: 5
+  - **Power**: 6
+  - **Ability**: Ongoing – Gives +6 Power to the location to the *right* of where Klaw is played, helping secure another location.
+
+- **Mister Fantastic**
+  - **Cost**: 3
+  - **Power**: 2
+  - **Ability**: Ongoing – Adds +2 Power to the adjacent locations on both sides of where Mister Fantastic is played, providing a way to spread power across the board without overcommitting to one location.

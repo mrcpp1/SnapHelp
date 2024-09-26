@@ -1,0 +1,112 @@
+Current game state:
+
+Energy_turns:
+The current energy is 5, and it is turn 5 out of 6.
+
+Your_cards:
+Here is a breakdown of each card in the player's hand, based on the image:
+
+1. **Namor**
+   - **Cost**: 4
+   - **Power**: 5
+   - **Ability**: Namor gains **+5 Power** if it is the only card at its location, making it more effective in focused, solo strategies in a single location.
+
+2. **The Punisher**
+   - **Cost**: 3
+   - **Power**: 2
+   - **Ability**: The Punisher gains **+1 Power** for each opposing card at this location, making it stronger when played against locations with many enemy cards.
+
+3. **Spectrum**
+   - **Cost**: 6
+   - **Power**: 5
+   - **Ability**: On reveal, Spectrum gives **+2 Power** to all of your ongoing cards, boosting their effect and making it ideal for synergy with ongoing card decks.
+
+4. **Iron Man**
+   - **Cost**: 5
+   - **Power**: 0
+   - **Ability**: Iron Man doubles your total Power at the location where he is played, potentially bringing a massive power swing at key moments.
+
+
+
+Location1:
+The left location is **Hell's Kitchen**. Its effect is: **"Draw a 1-Cost card from your deck."** This effect triggers upon reveal, giving each player a 1-Cost card if they have any remaining in the deck.
+
+### Cards played at **Hell's Kitchen**:
+
+#### Opponent's Cards (on top):
+1. **Punisher**  
+   - **Cost**: 3  
+   - **Power**: 5  
+   - **Ability**: Ongoing - Gains +1 Power for each opposing card at the location.
+  
+2. **America Chavez**  
+   - **Cost**: 6  
+   - **Power**: 9  
+   - **Ability**: You always draw this card on turn 6, and not before.
+
+#### Player's Cards (on bottom):
+1. **Iceman**  
+   - **Cost**: 1  
+   - **Power**: 2  
+   - **Ability**: On Reveal - Give a random card in your opponent's hand +1 Cost.
+
+2. **Colossus**  
+   - **Cost**: 2  
+   - **Power**: 3  
+   - **Ability**: Ongoing - Cannot be destroyed, moved, or have its Power reduced.
+
+3. **Captain America**  
+   - **Cost**: 3  
+   - **Power**: 3  
+   - **Ability**: Ongoing - Your other cards at this location have +1 Power.
+
+Location3:
+The right location is **Strange Academy**.
+
+### Strange Academy's Effect:
+- "**After turn 5, move all cards here to other random locations.**" This means that if any cards are played at this location before turn 5, they will be randomly relocated to one of the other two locations once the 5th turn has ended.
+
+### Cards Played at Strange Academy:
+
+#### Opponent's Cards (on top):
+1. **Nakia**
+   - **Cost**: 3 energy
+   - **Power**: 1
+   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
+
+#### Player's Cards (on bottom):
+1. **Nakia**
+   - **Cost**: 3 energy
+   - **Power**: 2
+   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
+
+
+
+Location2:
+### Middle Location: **Otto's Lab**
+- **Effect**: "The first card you play here copies itself." This means that when a card is played at Otto's Lab, an additional copy of that card is created and placed in the same location.
+
+### Cards Played at Otto's Lab:
+
+#### 1. **Opponent's Cards (Top)**
+- **Scorpion**
+  - **Cost**: 2
+  - **Power**: 3
+  - **Ability**: When Scorpion is revealed, it afflicts all cards in the opponent's hand with a -1 Power, weakening any cards still to be played.
+
+- **Okoye**
+  - **Cost**: 2
+  - **Power**: 2
+  - **Ability**: When revealed, Okoye gives every card in your deck +1 Power, increasing their strength when drawn and played.
+
+#### 2. **Player's Cards (Bottom)**
+- **Klaw**
+  - **Cost**: 5
+  - **Power**: 6
+  - **Ability**: Ongoing – Gives +6 Power to the location to the *right* of where Klaw is played, helping secure another location.
+
+- **Mister Fantastic**
+  - **Cost**: 3
+  - **Power**: 2
+  - **Ability**: Ongoing – Adds +2 Power to the adjacent locations on both sides of where Mister Fantastic is played, providing a way to spread power across the board without overcommitting to one location.
+

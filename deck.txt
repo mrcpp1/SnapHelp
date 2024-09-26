@@ -1,0 +1,12 @@
+# (1) Ant Man
+# (1) Iceman
+# (2) Armor
+# (2) Colossus
+# (2) Lizard
+# (3) Mister Fantastic
+# (3) Captain America
+# (3) Punisher
+# (4) Namor
+# (5) Iron Man
+# (5) Klaw
+# (6) Spectrum

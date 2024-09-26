@@ -1,0 +1,19 @@
+The right location is **Strange Academy**.
+
+### Strange Academy's Effect:
+- "**After turn 5, move all cards here to other random locations.**" This means that if any cards are played at this location before turn 5, they will be randomly relocated to one of the other two locations once the 5th turn has ended.
+
+### Cards Played at Strange Academy:
+
+#### Opponent's Cards (on top):
+1. **Nakia**
+   - **Cost**: 3 energy
+   - **Power**: 1
+   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
+
+#### Player's Cards (on bottom):
+1. **Nakia**
+   - **Cost**: 3 energy
+   - **Power**: 2
+   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
+
