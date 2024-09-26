@@ -1,22 +1,28 @@
-Here is a breakdown of each card in the player's hand, based on the image:
+Here are the cards listed from the player's hand, along with their name, cost, power, and a brief description of their ability:
 
-1. **Namor**
-   - **Cost**: 4
-   - **Power**: 5
-   - **Ability**: Namor gains **+5 Power** if it is the only card at its location, making it more effective in focused, solo strategies in a single location.
+1. **Spectrum**
+   - **Cost:** 6
+   - **Power:** 5
+   - **Ability:** On Reveal: Give your Ongoing cards +2 Power. Spectrum boosts other cards with Ongoing abilities, increasing their overall strength on the board.
 
-2. **The Punisher**
-   - **Cost**: 3
-   - **Power**: 2
-   - **Ability**: The Punisher gains **+1 Power** for each opposing card at this location, making it stronger when played against locations with many enemy cards.
+2. **Mister Fantastic**
+   - **Cost:** 3
+   - **Power:** 2
+   - **Ability:** Ongoing: Adjacent locations have +2 Power. Mister Fantastic adds power to the locations to the left and right of where he's played.
 
-3. **Spectrum**
-   - **Cost**: 6
-   - **Power**: 5
-   - **Ability**: On reveal, Spectrum gives **+2 Power** to all of your ongoing cards, boosting their effect and making it ideal for synergy with ongoing card decks.
+3. **The Punisher**
+   - **Cost:** 3
+   - **Power:** 2
+   - **Ability:** Ongoing: +1 Power for each opposing card at this location. Punisher gains additional power based on how many enemy cards are at the same location.
 
-4. **Iron Man**
-   - **Cost**: 5
-   - **Power**: 0
-   - **Ability**: Iron Man doubles your total Power at the location where he is played, potentially bringing a massive power swing at key moments.
+4. **Colossus**
+   - **Cost:** 2
+   - **Power:** 3
+   - **Ability:** Ongoing: Can't be destroyed, moved, or have its Power reduced. Colossus is resilient and immune to various negative effects, making it hard to remove or weaken.
 
+5. **Ant-Man**
+   - **Cost:** 1
+   - **Power:** 1
+   - **Ability:** Ongoing: If you have 3 other cards here, +3 Power. Ant-Man gains a significant boost in power when the location he is placed at is full.
+
+Each card contributes in various strategic ways either through positioning, board control, or synergy with other Ongoing cards, particularly benefiting from Spectrum's power boost.

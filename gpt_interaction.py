@@ -18,10 +18,10 @@ def get_image_description(image_path, image_type):
     base64_image = encode_image(image_path)
 
     prompts = {
-        "your_cards": "Describe the cards in the player's hand. List each card with its name, cost, power, and a brief description of its ability.",
-        "location1": "Describe the left location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities.",
-        "location2": "Describe the middle location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities.",
-        "location3": "Describe the right location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities.",
+        "your_cards": "Describe the cards in the player's hand. List each card with its name, cost, power, and a brief description of its ability. If there are no cards, state that the player has no cards in hand.",
+        "location1": "Describe the left location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities. If there are no cards, state that there are no cards at this location.",
+        "location2": "Describe the middle location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities. If there are no cards, state that there are no cards at this location.",
+        "location3": "Describe the right location. What is its name and effect? Also, list all cards played here, with the opponent's cards on top and the player's cards on the bottom. Include their names, costs, powers, and a brief description of their abilities. If there are no cards, state that there are no cards at this location.",
         "energy_turns": "What is the current energy and turn number?"
     }
 

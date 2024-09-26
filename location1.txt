@@ -1,30 +1,26 @@
-The left location is **Hell's Kitchen**. Its effect is: **"Draw a 1-Cost card from your deck."** This effect triggers upon reveal, giving each player a 1-Cost card if they have any remaining in the deck.
+### Location: **Necrosha**
+- **Effect:** Cards at this location have **-2 Power**.
 
-### Cards played at **Hell's Kitchen**:
+### Cards Played at Necrosha:
 
-#### Opponent's Cards (on top):
-1. **Punisher**  
-   - **Cost**: 3  
-   - **Power**: 5  
-   - **Ability**: Ongoing - Gains +1 Power for each opposing card at the location.
-  
-2. **America Chavez**  
-   - **Cost**: 6  
-   - **Power**: 9  
-   - **Ability**: You always draw this card on turn 6, and not before.
+- **Opponent's Card:**
+  1. **Name:** *Typhoid Mary*
+     - **Cost:** 4
+     - **Power:** 10
+     - **Ability:** Ongoing: Your other cards have **-1 Power**.
 
-#### Player's Cards (on bottom):
-1. **Iceman**  
-   - **Cost**: 1  
-   - **Power**: 2  
-   - **Ability**: On Reveal - Give a random card in your opponent's hand +1 Cost.
+- **Player's Cards:**
+  1. **Name:** *Lizard*
+     - **Cost:** 2
+     - **Power:** 5
+     - **Ability:** Ongoing: If your opponent has 4 cards here, this has **-3 Power**.
 
-2. **Colossus**  
-   - **Cost**: 2  
-   - **Power**: 3  
-   - **Ability**: Ongoing - Cannot be destroyed, moved, or have its Power reduced.
+  2. **Name:** *Titania*
+     - **Cost:** 1
+     - **Power:** 5
+     - **Ability:** When any card is played at this location, this card switches sides.
 
-3. **Captain America**  
-   - **Cost**: 3  
-   - **Power**: 3  
-   - **Ability**: Ongoing - Your other cards at this location have +1 Power.
+  3. **Name:** *The Hood*
+     - **Cost:** 1
+     - **Power:** -2
+     - **Ability:** On Reveal: Add a 6-Power *Demon* to your hand.

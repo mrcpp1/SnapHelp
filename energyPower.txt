@@ -1,1 +1,1 @@
-The current energy is 5, and it is turn 5 out of 6.
+The current energy is 2, and it is turn 2 out of 6.

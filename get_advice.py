@@ -43,7 +43,7 @@ Explanation: [Explain why these moves are the best options, considering the anal
     ]
 
     # Send the request to the API
-    response = client.chat.completions.create(model="chatgpt-4o-latest",
+    response = client.chat.completions.create(model="gpt-4o-mini",
     messages=messages,
     max_tokens=2000)
 

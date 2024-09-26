@@ -1,19 +1,5 @@
-The right location is **Strange Academy**.
+The location in the image is currently still unrevealed. Its name and effect are not known yet, as it states, "Will be revealed next turn."
 
-### Strange Academy's Effect:
-- "**After turn 5, move all cards here to other random locations.**" This means that if any cards are played at this location before turn 5, they will be randomly relocated to one of the other two locations once the 5th turn has ended.
+No cards have been played in this location so far, as there are no visible cards placed by either the opponent or the player.
 
-### Cards Played at Strange Academy:
-
-#### Opponent's Cards (on top):
-1. **Nakia**
-   - **Cost**: 3 energy
-   - **Power**: 1
-   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
-
-#### Player's Cards (on bottom):
-1. **Nakia**
-   - **Cost**: 3 energy
-   - **Power**: 2
-   - **Ability**: On Reveal: Give the two leftmost cards in your hand +2 Power.
-
+Therefore, there is nothing to list in terms of cards, costs, powers, or abilities at this location at the moment.
