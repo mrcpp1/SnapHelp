@@ -9,7 +9,7 @@ load_dotenv()
 # Now create the OpenAI client
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
-def get_strategic_advice(descriptions):
+def get_strategic_advice(descriptions, card_abilities):
     combined_text = "\n".join([f"{key}: {value}" for key, value in descriptions.items()])
     final_prompt = f"""You are a Marvel Snap expert. Given the following game state:
 
@@ -43,9 +43,9 @@ Explanation: [Explain why these moves are the best options, considering the anal
     ]
 
     # Send the request to the API
-    response = client.chat.completions.create(model="gpt-4o-mini",
-    messages=messages,
-    max_tokens=2000)
+    response = client.chat.completions.create(model="chatgpt-4o-latest",
+                                              messages=messages,
+                                              max_tokens=2000)
 
     advice = response.choices[0].message.content
 
@@ -58,6 +58,6 @@ Explanation: [Explain why these moves are the best options, considering the anal
 if __name__ == "__main__":
     # Assume descriptions are already obtained
     descriptions = get_all_descriptions()
-    advice = get_strategic_advice(descriptions)
+    advice = get_strategic_advice(descriptions, load_card_abilities('card_abilities.txt'))
     print("Strategic Advice:")
     print(advice)

@@ -1,14 +1,5 @@
-- **Middle Location:**
-  - **Name:** Hotel Inferno
-  - **Effect:** "After you play a card here this turn, destroy the top card of your opponent's deck."
+The cards played at the middle location (Oscorp Tower) are: , no ability
 
-- **Cards Played at Middle Location:**
+- Ant-Man
 
-  - **Opponent's Card:**
-    - **Name:** America Chavez
-    - **Cost:** 6 Energy
-    - **Power:** 9 Power
-    - **Ability:** America Chavez always appears in your hand on turn 6, giving you a guaranteed powerful card for the final turn.
-
-  - **Player's Card:**
-    - *No cards have been played by the player in this location yet.*
+These cards are visible on the lower side with the purple outline, indicating the player's side.

@@ -1,28 +1,6 @@
-Here are the cards listed from the player's hand, along with their name, cost, power, and a brief description of their ability:
+The player has the following cards in hand: , no ability
 
-1. **Spectrum**
-   - **Cost:** 6
-   - **Power:** 5
-   - **Ability:** On Reveal: Give your Ongoing cards +2 Power. Spectrum boosts other cards with Ongoing abilities, increasing their overall strength on the board.
-
-2. **Mister Fantastic**
-   - **Cost:** 3
-   - **Power:** 2
-   - **Ability:** Ongoing: Adjacent locations have +2 Power. Mister Fantastic adds power to the locations to the left and right of where he's played.
-
-3. **The Punisher**
-   - **Cost:** 3
-   - **Power:** 2
-   - **Ability:** Ongoing: +1 Power for each opposing card at this location. Punisher gains additional power based on how many enemy cards are at the same location.
-
-4. **Colossus**
-   - **Cost:** 2
-   - **Power:** 3
-   - **Ability:** Ongoing: Can't be destroyed, moved, or have its Power reduced. Colossus is resilient and immune to various negative effects, making it hard to remove or weaken.
-
-5. **Ant-Man**
-   - **Cost:** 1
-   - **Power:** 1
-   - **Ability:** Ongoing: If you have 3 other cards here, +3 Power. Ant-Man gains a significant boost in power when the location he is placed at is full.
-
-Each card contributes in various strategic ways either through positioning, board control, or synergy with other Ongoing cards, particularly benefiting from Spectrum's power boost.
+1. Namor
+2. Lizard
+3. Armor
+4. Mister Fantastic

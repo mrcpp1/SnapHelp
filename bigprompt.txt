@@ -1,86 +1,33 @@
 Current game state:
 
 Energy_turns:
-The current energy is 2, and it is turn 2 out of 6.
+The current energy is 6, and it is the final turn (turn 6).
 
 Location3:
-The location in the image is currently still unrevealed. Its name and effect are not known yet, as it states, "Will be revealed next turn."
-
-No cards have been played in this location so far, as there are no visible cards placed by either the opponent or the player.
-
-Therefore, there is nothing to list in terms of cards, costs, powers, or abilities at this location at the moment.
-
-Location2:
-- **Middle Location:**
-  - **Name:** Hotel Inferno
-  - **Effect:** "After you play a card here this turn, destroy the top card of your opponent's deck."
-
-- **Cards Played at Middle Location:**
-
-  - **Opponent's Card:**
-    - **Name:** America Chavez
-    - **Cost:** 6 Energy
-    - **Power:** 9 Power
-    - **Ability:** America Chavez always appears in your hand on turn 6, giving you a guaranteed powerful card for the final turn.
-
-  - **Player's Card:**
-    - *No cards have been played by the player in this location yet.*
-
-Location1:
-### Location: **Necrosha**
-- **Effect:** Cards at this location have **-2 Power**.
-
-### Cards Played at Necrosha:
-
-- **Opponent's Card:**
-  1. **Name:** *Typhoid Mary*
-     - **Cost:** 4
-     - **Power:** 10
-     - **Ability:** Ongoing: Your other cards have **-1 Power**.
-
-- **Player's Cards:**
-  1. **Name:** *Lizard*
-     - **Cost:** 2
-     - **Power:** 5
-     - **Ability:** Ongoing: If your opponent has 4 cards here, this has **-3 Power**.
-
-  2. **Name:** *Titania*
-     - **Cost:** 1
-     - **Power:** 5
-     - **Ability:** When any card is played at this location, this card switches sides.
-
-  3. **Name:** *The Hood*
-     - **Cost:** 1
-     - **Power:** -2
-     - **Ability:** On Reveal: Add a 6-Power *Demon* to your hand.
+There are no cards at this location.
 
 Your_cards:
-Here are the cards listed from the player's hand, along with their name, cost, power, and a brief description of their ability:
+The player has the following cards in hand: , no ability
 
-1. **Spectrum**
-   - **Cost:** 6
-   - **Power:** 5
-   - **Ability:** On Reveal: Give your Ongoing cards +2 Power. Spectrum boosts other cards with Ongoing abilities, increasing their overall strength on the board.
+1. Namor
+2. Lizard
+3. Armor
+4. Mister Fantastic
 
-2. **Mister Fantastic**
-   - **Cost:** 3
-   - **Power:** 2
-   - **Ability:** Ongoing: Adjacent locations have +2 Power. Mister Fantastic adds power to the locations to the left and right of where he's played.
+Location1:
+The cards played at the left location are: , no ability
 
-3. **The Punisher**
-   - **Cost:** 3
-   - **Power:** 2
-   - **Ability:** Ongoing: +1 Power for each opposing card at this location. Punisher gains additional power based on how many enemy cards are at the same location.
+- Captain America
+- Armor
+- Colossus
+- Captain America
+- The Punisher
+- Klaw
 
-4. **Colossus**
-   - **Cost:** 2
-   - **Power:** 3
-   - **Ability:** Ongoing: Can't be destroyed, moved, or have its Power reduced. Colossus is resilient and immune to various negative effects, making it hard to remove or weaken.
+Location2:
+The cards played at the middle location (Oscorp Tower) are: , no ability
 
-5. **Ant-Man**
-   - **Cost:** 1
-   - **Power:** 1
-   - **Ability:** Ongoing: If you have 3 other cards here, +3 Power. Ant-Man gains a significant boost in power when the location he is placed at is full.
+- Ant-Man
 
-Each card contributes in various strategic ways either through positioning, board control, or synergy with other Ongoing cards, particularly benefiting from Spectrum's power boost.
+These cards are visible on the lower side with the purple outline, indicating the player's side.
 

@@ -1,26 +1,8 @@
-### Location: **Necrosha**
-- **Effect:** Cards at this location have **-2 Power**.
+The cards played at the left location are: , no ability
 
-### Cards Played at Necrosha:
-
-- **Opponent's Card:**
-  1. **Name:** *Typhoid Mary*
-     - **Cost:** 4
-     - **Power:** 10
-     - **Ability:** Ongoing: Your other cards have **-1 Power**.
-
-- **Player's Cards:**
-  1. **Name:** *Lizard*
-     - **Cost:** 2
-     - **Power:** 5
-     - **Ability:** Ongoing: If your opponent has 4 cards here, this has **-3 Power**.
-
-  2. **Name:** *Titania*
-     - **Cost:** 1
-     - **Power:** 5
-     - **Ability:** When any card is played at this location, this card switches sides.
-
-  3. **Name:** *The Hood*
-     - **Cost:** 1
-     - **Power:** -2
-     - **Ability:** On Reveal: Add a 6-Power *Demon* to your hand.
+- Captain America
+- Armor
+- Colossus
+- Captain America
+- The Punisher
+- Klaw
