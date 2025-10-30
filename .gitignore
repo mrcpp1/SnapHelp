@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment configuration
+.env
+
+# macOS
+.DS_Store
+
+# Editor metadata
+.idea/
+.vscode/
+
+# Generated screenshots and slices
+screenshot.png
+your_cards.png
+location*.png
+energy_turns.png
+
+# Generated text outputs
+hand.txt
+energyPower.txt
+location*.txt
+bigprompt.txt
+finalResponse.txt
+
+# Logs
+*.log
