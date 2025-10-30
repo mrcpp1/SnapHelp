@@ -1,19 +1,18 @@
-import os
+"""Generate strategic advice from a captured Marvel Snap game state."""
+
+from __future__ import annotations
+
+from pathlib import Path
+from typing import Mapping
+
 from openai import OpenAI
-from dotenv import load_dotenv
-from gpt_interaction import get_all_descriptions
 
-# Load environment variables from .env file
-load_dotenv()
+from gpt_interaction import GameState, get_all_descriptions, get_openai_client
+from read_card_abilities import load_card_abilities
 
-# Now create the OpenAI client
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+PROMPT_TEMPLATE = """You are a Marvel Snap expert. Given the following game state:
 
-def get_strategic_advice(descriptions, card_abilities):
-    combined_text = "\n".join([f"{key}: {value}" for key, value in descriptions.items()])
-    final_prompt = f"""You are a Marvel Snap expert. Given the following game state:
-
-{combined_text}
+{game_state}
 
 Please analyze the game state and provide strategic advice in the following format:
 
@@ -32,32 +31,58 @@ Recommended Moves:
 Explanation: [Explain why these moves are the best options, considering the analysis above, synergies between card abilities, location effects, and the current game state]
 """
 
-    # Prepare the message content
+
+def get_strategic_advice(
+    game_state: GameState,
+    card_abilities: Mapping[str, str],
+    client: OpenAI | None = None,
+    output_path: Path | str = Path("finalResponse.txt"),
+) -> str:
+    """
+    Request a strategic recommendation from OpenAI based on the game state.
+
+    Parameters
+    ----------
+    game_state:
+        Descriptions of each board section and detected cards.
+    card_abilities:
+        Mapping of card names to their ability descriptions.
+    client:
+        Optional OpenAI client. Created automatically when omitted.
+    output_path:
+        Location where the formatted response should be written.
+
+    Returns
+    -------
+    str
+        The model-generated strategic advice.
+    """
+    client = client or get_openai_client()
+    output_path = Path(output_path)
+
+    prompt_body = PROMPT_TEMPLATE.format(game_state=game_state.to_prompt(card_abilities))
     messages = [
         {
             "role": "user",
-            "content": [
-                {"type": "text", "text": final_prompt}
-            ]
+            "content": [{"type": "text", "text": prompt_body}],
         }
     ]
 
-    # Send the request to the API
-    response = client.chat.completions.create(model="chatgpt-4o-latest",
-                                              messages=messages,
-                                              max_tokens=2000)
+    response = client.chat.completions.create(
+        model="chatgpt-4o-latest",
+        messages=messages,
+        max_tokens=2_000,
+    )
 
-    advice = response.choices[0].message.content
-
-    # Write the advice to finalResponse.txt
-    with open('finalResponse.txt', 'w') as f:
-        f.write(advice)
-
+    advice = response.choices[0].message.content.strip()
+    output_path.write_text(advice, encoding="utf-8")
     return advice
 
+
 if __name__ == "__main__":
-    # Assume descriptions are already obtained
-    descriptions = get_all_descriptions()
-    advice = get_strategic_advice(descriptions, load_card_abilities('card_abilities.txt'))
-    print("Strategic Advice:")
-    print(advice)
+    from dotenv import load_dotenv
+
+    load_dotenv()
+    abilities = load_card_abilities("card_abilities.txt")
+    state = get_all_descriptions()
+    print(get_strategic_advice(state, abilities))

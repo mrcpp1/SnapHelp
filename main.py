@@ -1,50 +1,68 @@
+"""CLI entry point for orchestrating the SnapHelp workflow."""
+
+from __future__ import annotations
+
+from pathlib import Path
+from time import perf_counter
+
+from dotenv import load_dotenv
+
 from capture_screenshot import capture_screenshot
 from divide_screenshot import divide_screenshot
 from get_advice import get_strategic_advice
-from gpt_interaction import get_all_descriptions
-import time
+from gpt_interaction import GameState, get_all_descriptions
+from read_card_abilities import load_card_abilities
 
-def main():
-    print("Please ensure SNAP is running and visible on the screen.")
-    print("When prompted, use the crosshair to select the SNAP window.")
+PROJECT_ROOT = Path(__file__).parent
+
+
+def run_workflow() -> None:
+    """Capture the board state, describe it, and request strategic advice."""
+    load_dotenv(PROJECT_ROOT / ".env")
+
+    print("Ensure Marvel Snap is running and clearly visible.")
+    print("When prompted, use the crosshair to select the Marvel Snap window.")
     input("Press Enter when you're ready to capture the screenshot...")
 
-    # Step 1: Capture the screenshot
-    print("Attempting to capture screenshot...")
-    image_path = capture_screenshot()
-    if image_path is None:
+    print("Capturing screenshot...")
+    screenshot_path = capture_screenshot(PROJECT_ROOT / "screenshot.png")
+    if screenshot_path is None:
         print("Failed to capture screenshot. Please try again.")
         return
 
-    print(f"Screenshot captured successfully: {image_path}")
+    print(f"Screenshot saved to {screenshot_path.resolve()}")
 
-    # Step 2: Divide the screenshot
-    print("Dividing the screenshot...")
+    print("Dividing screenshot into board sections...")
     try:
-        divide_screenshot(image_path)
-    except Exception as e:
-        print(f"Error dividing screenshot: {e}")
+        divide_screenshot(screenshot_path, output_dir=PROJECT_ROOT)
+    except Exception as exc:
+        print(f"Error dividing screenshot: {exc}")
         return
 
-    # Step 3: Get descriptions from GPT-4 (now multithreaded)
-    print("Getting descriptions from GPT-4...")
-    start_time = time.time()
+    print("Describing board state with OpenAI...")
+    describe_start = perf_counter()
     try:
-        descriptions = get_all_descriptions()
-    except Exception as e:
-        print(f"Error getting descriptions: {e}")
+        game_state: GameState = get_all_descriptions(PROJECT_ROOT, PROJECT_ROOT / "card_abilities.txt")
+    except Exception as exc:
+        print(f"Error describing board state: {exc}")
         return
-    end_time = time.time()
-    print(f"Time taken to get all descriptions: {end_time - start_time:.2f} seconds")
+    describe_elapsed = perf_counter() - describe_start
+    print(f"Descriptions retrieved in {describe_elapsed:.2f} seconds.")
 
-    # Step 4: Get strategic advice
-    print("Getting strategic advice...")
+    print("Generating strategic advice...")
     try:
-        advice = get_strategic_advice(descriptions)
-        print("\nStrategic Advice:")
+        card_abilities = load_card_abilities(PROJECT_ROOT / "card_abilities.txt")
+        advice = get_strategic_advice(game_state, card_abilities, output_path=PROJECT_ROOT / "finalResponse.txt")
+        print("\nStrategic Advice:\n")
         print(advice)
-    except Exception as e:
-        print(f"Error getting strategic advice: {e}")
+    except Exception as exc:
+        print(f"Error getting strategic advice: {exc}")
+
+
+def main() -> None:
+    """Entrypoint invoked by the ``python -m`` interface."""
+    run_workflow()
+
 
 if __name__ == "__main__":
     main()
